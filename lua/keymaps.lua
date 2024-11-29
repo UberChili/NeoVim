@@ -20,6 +20,11 @@ vim.keymap.set({ 'n', 't' }, '<leader>j', function()
   require('nvterm.terminal').toggle 'horizontal'
 end, { desc = 'Toggle horizontal, small term' })
 
+-- bufferline
+
+vim.keymap.set('n', '<Tab>', '<Cmd>BufferLineMoveNext<CR>', { desc = 'Cycle to next tab' })
+vim.keymap.set('n', '<S-Tab>', '<Cmd>BufferLineMovePrev<CR>', { desc = 'Cycle to prev tab' })
+
 -- TIP: Disable arrow keys in normal mode
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
 -- vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')

@@ -58,12 +58,13 @@ require('lazy').setup({
   require 'kickstart.plugins.autopairs',
   require 'kickstart.plugins.neo-tree',
 
-  -- Custom
+  -- Custom Plugins added by me duh
   require 'custom.plugins.oil',
   -- require 'custom.plugins.toggleterm',
   require 'custom.plugins.nvterm',
   require 'custom.plugins.render-markdown',
   require 'custom.plugins.obsidian',
+  require 'custom.plugins.alpha',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

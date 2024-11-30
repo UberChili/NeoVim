@@ -21,9 +21,9 @@ vim.keymap.set({ 'n', 't' }, '<leader>j', function()
 end, { desc = 'Toggle horizontal, small term' })
 
 -- bufferline
-
 vim.keymap.set('n', '<Tab>', '<Cmd>BufferLineCycleNext<CR>', { desc = 'Cycle to next tab' })
 vim.keymap.set('n', '<S-Tab>', '<Cmd>BufferLineCyclePrev<CR>', { desc = 'Cycle to prev tab' })
+vim.keymap.set('n', '<leader>x', '<Cmd>bdelete<CR>', { desc = 'Close current tab' })
 
 -- TIP: Disable arrow keys in normal mode
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')

@@ -7,8 +7,9 @@ return {
       options = {
         themable = true,
         diagnostics_update_on_event = true,
-        separator_style = 'slope',
+        separator_style = 'slant',
         always_show_bufferline = false,
+        close_command = 'bdelete! %d',
       },
     }
   end,

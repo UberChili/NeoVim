@@ -243,6 +243,8 @@ return {
           end,
         },
       }
+      -- Icons
+      --
     end,
   },
 }

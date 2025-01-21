@@ -69,6 +69,7 @@ require('lazy').setup({
   require 'custom.plugins.catpuccin',
   require 'custom.plugins.avante',
   require 'custom.plugins.orgmode',
+  require 'custom.plugins.org-roam',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

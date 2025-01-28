@@ -9,7 +9,7 @@ return {
   },
   config = function()
     require('org-roam').setup {
-      directory = '~/Notes',
+      directory = '~/Notes/',
       -- optional
       org_files = {
         '~/Notes/daily/',

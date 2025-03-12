@@ -16,6 +16,12 @@ return {
         -- '~/some/folder/*.org',
         -- '~/a/single/org_file.org',
       },
+      extensions = {
+        dailies = {
+          directory = '~/Notes/daily/',
+        },
+      },
+      ui = {},
     }
   end,
 }

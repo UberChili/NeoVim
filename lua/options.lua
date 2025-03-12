@@ -73,3 +73,7 @@ vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 -- What the fuck is going on
 --
 --
+
+-- Conceal for links
+vim.opt.conceallevel = 2
+vim.opt.concealcursor = 'nc'

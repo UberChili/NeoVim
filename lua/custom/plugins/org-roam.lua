@@ -11,17 +11,17 @@ return {
     require('org-roam').setup {
       directory = '~/Notes/',
       -- optional
-      org_files = {
-        '~/Notes/daily/',
-        -- '~/some/folder/*.org',
-        -- '~/a/single/org_file.org',
-      },
-      extensions = {
-        dailies = {
-          directory = '~/Notes/daily/',
-        },
-      },
-      ui = {},
+      -- org_files = {
+      --   '~/Notes/daily/',
+      --   -- '~/some/folder/*.org',
+      --   -- '~/a/single/org_file.org',
+      -- },
+      -- extensions = {
+      --   dailies = {
+      --     directory = '~/Notes/daily/',
+      --   },
+      -- },
+      -- ui = {},
     }
   end,
 }

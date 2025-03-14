@@ -22,5 +22,8 @@ return {
         path = '~/Notes',
       },
     },
+    daily_notes = {
+      folder = '~/Notes/Dailies/',
+    },
   },
 }

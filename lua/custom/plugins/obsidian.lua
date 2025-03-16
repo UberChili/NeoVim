@@ -23,7 +23,7 @@ return {
       },
     },
     daily_notes = {
-      folder = '~/Notes/Dailies/',
+      folder = 'Dailies/',
     },
   },
 }

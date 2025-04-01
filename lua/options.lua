@@ -73,7 +73,18 @@ vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 -- What the fuck is going on
 --
 --
-
 -- Conceal for links
 vim.opt.conceallevel = 1
 vim.opt.concealcursor = 'nc'
+
+-- new diagnostics config
+vim.diagnostic.config {
+  -- Use the default configuration
+  virtual_text = true,
+
+  -- Alternatively, customize specific options
+  virtual_lines = {
+    -- Only show virtual line diagnostics for the current cursor line
+    current_line = false,
+  },
+}

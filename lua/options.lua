@@ -80,11 +80,11 @@ vim.opt.concealcursor = 'nc'
 -- new diagnostics config
 vim.diagnostic.config {
   -- Use the default configuration
-  virtual_text = false,
+  virtual_text = true,
 
   -- Alternatively, customize specific options
   virtual_lines = {
-    true,
+    false,
     -- Only show virtual line diagnostics for the current cursor line
     current_line = false,
   },

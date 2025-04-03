@@ -80,11 +80,15 @@ vim.opt.concealcursor = 'nc'
 -- new diagnostics config
 vim.diagnostic.config {
   -- Use the default configuration
-  virtual_text = true,
+  virtual_text = false,
 
   -- Alternatively, customize specific options
   virtual_lines = {
+    true,
     -- Only show virtual line diagnostics for the current cursor line
     current_line = false,
   },
 }
+
+-- borders on floating windows
+vim.o.winborder = 'rounded'

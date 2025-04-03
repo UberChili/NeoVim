@@ -18,9 +18,13 @@ require 'lazy-bootstrap'
 -- [[ Configure and install plugins ]]
 require 'lazy-plugins'
 
+-- [[ Configure and enable LSP servers]]
+vim.lsp.enable({'clangd', 'rust-analyzer', 'gopls'})
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 --
 -- Colorscheme
 -- vim.cmd.colorscheme 'catppuccin-frappe'
 vim.cmd.colorscheme = function() end
+

@@ -30,8 +30,8 @@ return {
       'hrsh7th/cmp-nvim-lsp',
     },
     config = function()
-      -- Brief aside: **What is LSP?**
-      --
+      -- Brief aside: **What is LSP?**lspcon
+      --lspcon
       -- LSP is an initialism you've probably heard, but might not understand what it is.
       --
       -- LSP stands for Language Server Protocol. It's a protocol that helps editors
@@ -192,6 +192,16 @@ return {
           },
         },
         pyright = {},
+        ols = {
+          cmd = {"ols"},
+          filetypes = {"odin"},
+          init_options = {
+            checker_args = "-strict-style",
+            collections = {
+              { name = "shared", path = vim.fn.expand('$HOME/odin-lib') }
+            },
+          },
+        },
         rust_analyzer = {
           filetypes = { 'rust' },
           settings = {

@@ -68,7 +68,7 @@ require('lazy').setup({
   require 'custom.plugins.bufferline',
   require 'custom.plugins.catpuccin',
   require 'custom.plugins.avante',
-  -- require 'custom.plugins.orgmode',
+  require 'custom.plugins.orgmode',
   -- require 'custom.plugins.org-roam',
   require 'custom.plugins.overseer',
 

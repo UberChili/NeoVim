@@ -1,5 +1,4 @@
 -- Need to actually configure this
-
 return {
   'nvim-orgmode/orgmode',
   event = 'VeryLazy',

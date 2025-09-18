@@ -193,16 +193,6 @@ return {
         },
         pyright = {},
         ols = {},
-        rust_analyzer = {
-          filetypes = { 'rust' },
-          settings = {
-            ['rust-analyzer'] = {
-              cargo = {
-                allFeatures = true,
-              },
-            },
-          },
-        },
         zls = {
           cmd = { 'zls' },
           filetypes = { 'zig', 'zir' },

@@ -1,14 +1,14 @@
 return {
   on_attach = on_attach,
-  cmd = { 'rust-analyzer'},
+  -- cmd = { 'rust-analyzer' },
   filetypes = { 'rust' },
   settings = {
     ['rust-analyzer'] = {
       imports = {
         granularity = {
-          group = "module",
+          group = 'module',
         },
-        prefix = "self",
+        prefix = 'self',
       },
       cargo = {
         buildScripts = {
@@ -19,5 +19,5 @@ return {
         enable = true,
       },
     },
-  }
+  },
 }

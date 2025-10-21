@@ -71,6 +71,7 @@ require('lazy').setup({
   require 'custom.plugins.orgmode',
   -- require 'custom.plugins.org-roam',
   require 'custom.plugins.overseer',
+  require 'custom.plugins.neogit',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.

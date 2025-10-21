@@ -43,6 +43,9 @@ vim.keymap.set('n', '<space><space>x', '<cmd>source %<CR>')
 vim.keymap.set('n', '<leader>so', '<cmd>ObsidianSearch<cr>', { desc = 'Find notes' })
 vim.keymap.set('n', '<leader>st', '<cmd>ObsidianTags<cr>', { desc = 'Find and list tags' })
 
+-- Neogit
+vim.keymap.set('n', '<leader>gg', '<cmd>Neogit<cr>', { desc = 'Open Neogit in current project' })
+
 -- Highlight when yanking (copying) text
 --  Try it with `yap` in normal mode
 --  See `:help vim.highlight.on_yank()`
